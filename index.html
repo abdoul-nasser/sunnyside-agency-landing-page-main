@@ -3,24 +3,125 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
   
   <title>Frontend Mentor | Sunnyside agency landing page</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap" rel="stylesheet">
+
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
-<body>
-  About
-  Services
-  Projects
-  Contact
 
-  We are creatives
+<body>
+  <div class="back-header p-3">
+    <nav class="navbar navbar-expand-lg navbar-light d-flex pt-5">
+      <div class="">
+        <img src="assets/images/logo.svg">
+      </div>
+      
+      <div class="ml-auto">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav align-items-middle verticla">
+            <li class="nav-item">
+              <a class="nav-link mr-4" href="#">
+                <span class="textmenu">About</span>
+              </a>
+            </li>
+            <li class="nav-item mr-4">
+              <a class="nav-link" href="#">
+                <span class="textmenu">Services</span>
+              </a>
+            </li>
+            <li class="nav-item mr-4">
+              <a class="nav-link" href="#">
+                <span class="textmenu">Projects</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <button type="button" class="btn btn-lg btntmenu px-4 py-3">Contact</button>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="we-are">
+      <span class="">We are creatives</span>
+      <div class="">
+        <img class="mt-5" src="assets/images/icon-arrow-down.svg">
+      </div>
+    </div>
+  </div>
+
+  <section class="section2">
+    <div class=""></div>
+    <div class=""></div>
+    <div class=""></div>
+  </section>
+
+  <section class="section3">
+    <h3 class="testititle">Client testimonials</h3>
+  </section>
+
+  
+
+  <section class="p-0">
+    <div class="row m-0">
+      <div class="col-3 px-0">
+        <img src="assets/images/desktop/image-gallery-milkbottles.jpg" class="imagegestion">
+      </div>
+      <div class="col-3 px-0">
+        <img src="assets/images/desktop/image-gallery-orange.jpg" class="imagegestion">
+      </div>
+      <div class="col-3 px-0">
+        <img src="assets/images/desktop/image-gallery-cone.jpg" class="imagegestion">
+      </div>
+      <div class="col-3 px-0">
+        <img src="assets/images/desktop/image-gallery-sugarcubes.jpg" class="imagegestion">
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class=""></div>
+    <div class="repartition">
+      <span class="">About</span>
+      <span class="">Services</span>
+      <span class="">Projects</span>
+    </div>
+    <div class="repartition">
+      <img src="assets/images/icon-facebook.svg" class="">
+      <img src="assets/images/icon-instagram.svg" class="">
+      <img src="assets/images/icon-twitter.svg" class="">
+      <img src="assets/images/icon-pinterest.svg" class="">
+    </div>
+  </footer>
+
+
+
+
+  
+  
+  
+  
+
+  
 
   Transform your brand
 
@@ -41,7 +142,7 @@
   Photography
   Increase your credibility by getting the most stunning, high-quality photos that improve your business image.
 
-  Client testimonials
+  
 
   We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.
   Emily R.
@@ -55,14 +156,11 @@
   Jennie F.
   Business Owner
 
-  About
-  Services
-  Projects
-  Contact
+  
 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">Nasser Mohammed</a>.
   </div>
 </body>
 </html>
