@@ -46,18 +46,128 @@ body{
     letter-spacing: 15px;
     text-transform: uppercase;
 }
-
+.section2{
+    margin: 0;
+    padding: 0;
+}
+.contain{
+    padding: 10%;
+    margin: 0;
+    vertical-align: middle;
+}
+.titlebrand {  
+    text-align: left;
+    font-size: 3.2rem;
+    font-weight: 900;
+    font-family: 'Fraunces';
+    color: #222d3c;
+    letter-spacing: 5px;
+}
+.carddescription{
+    padding-top: 8%;
+    padding-bottom: 8%;
+    text-align: left;
+}
+.learnmore{
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 900;
+    letter-spacing: 4px;
+    font-family: 'Fraunces';
+    color: #1c2530;
+    border: none;
+    background-color: none;
+    text-transform: uppercase;
+    padding: 0;
+}
+.learnmore1:hover{
+    border-bottom: 0.6rem solid #f8d702;
+}
+.learnmore2:hover{
+    border-bottom: 0.6rem solid #fd7765;
+} /*
+.backgrounleft{
+    width: 100%;
+    background-image: url("../assets/images/desktop/image-graphic-design.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}*/
+.grapicdesign{
+    position: absolute;
+    margin-top: -30%;
+    width: 100%;
+    text-align: center;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+.titlebrand2{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 900;
+    font-family: 'Fraunces';
+    color: #26574e;
+    letter-spacing: 5px;
+}
+.titlebrand3{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 900;
+    font-family: 'Fraunces';
+    color: #1a566e;
+    letter-spacing: 5px;
+}/*
+.backgrounright{
+    width: 100%;
+    background-image: url("../assets/images/desktop/image-photography.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: end;
+    vertical-align: bottom;
+}*/
 .section3 {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-top: 9%;
+    padding-bottom: 10%;
 }
 .testititle{
     font-family: 'Fraunces';
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     color: #ababab;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 15px;
+}
+.marge{
+    padding: 5% 17% 0 17%;
+}
+.cardimg{
+    width: 5.5rem;
+    border-radius: 50%;
+    text-align: center;
+}
+.carddescription{
+    text-align: center;
+    color: #5f5e63;
+    font-size: 1.3rem;
+    line-height: 1.5;
+}
+.card-footer{
+    background-color: #fff;
+    border: none;
+    text-align: center;
+}
+.cardname{
+    font-size: 1.3rem;
+    color: #1d212c;
+    font-weight: 900;
+    font-family: 'Fraunces';
+    margin-bottom: 0.5rem;
+}
+.cardposte{
+    font-size: 1rem;
+    color: #5f5e63;
+    font-family: 'Barlow';
+    font-weight: 600;
+    text-transform: capitalize;
 }
 .imagegestion{
     width: 100%;
@@ -65,11 +175,21 @@ body{
 .footer{
     padding-top: 4rem;
     padding-bottom: 4rem;
-    padding-right: 20%;
-    padding-left: 20%;
+    padding-right: 30%;
+    padding-left: 30%;
     justify-content: center;
     background-color: #90d4c5;
 }
-.repartition{
-    justify-content: space-around;
+.textfooter {
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #2e7565;
+    font-size: 1.2rem;
+    background-color: none;
 }
+.textfooter:hover{
+    color: #fff;
+}
+.imgfooter:hover {
+    color: #fff;
+  }
