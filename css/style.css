@@ -62,11 +62,12 @@ body{
     font-family: 'Fraunces';
     color: #222d3c;
     letter-spacing: 5px;
+    line-height: 1.2;
 }
-.carddescription{
-    padding-top: 8%;
-    padding-bottom: 8%;
-    text-align: left;
+
+.margein{
+    padding-bottom: 3rem;
+    padding-top: 3rem;
 }
 .learnmore{
     text-align: center;
@@ -149,6 +150,11 @@ body{
     color: #5f5e63;
     font-size: 1.3rem;
     line-height: 1.5;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    text-align: left;
 }
 .card-footer{
     background-color: #fff;

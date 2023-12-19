@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
   <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
   
   <title>Frontend Mentor | Sunnyside agency landing page</title>
@@ -72,9 +73,9 @@
   <section class="section2">
 
     <div class="row m-0 p-0">
-      <div class="col-6 contain">
+      <div class="col-lg-6 col-md-6 col-sm-12 contain my-auto mx-auto order-md-first order-sm-last">
         <p class="titlebrand">Transform your brand</p>
-        <div class="my-5">
+        <div class="margein">
           <span class="carddescription">
             We are a full-service creative agency specializing in helping brands grow fast. 
             Engage your clients through compelling visuals that do most of the marketing for you.
@@ -82,19 +83,19 @@
         </div>
         <button class="btn learnmore learnmore1">Learn more</button>
       </div>
-      <div class="col-6 m-0 p-0">
+      <div class="col-lg-6 col-md-6 col-sm-12 m-0 p-0 order-md-last order-sm-first">
         <img src="assets/images/desktop/image-transform.jpg" class="w-100">
       </div>
     </div>
 
     <div class="row m-0">
-      <div class="col-6 m-0 p-0">
+      <div class="col-lg-6 col-md-6 col-sm-12 m-0 p-0">
         <img src="assets/images/desktop/image-stand-out.jpg" class="w-100">
       </div>
-      <div class="col-6 contain">
+      <div class="col-lg-6 col-md-6 col-sm-12 contain my-auto mx-auto">
         <p class="titlebrand">Stand out to the right audience</p>
-        <div class="my-5">
-          <span class=" carddescription">
+        <div class="margein">
+          <span class="carddescription">
             Using a collaborative formula of designers, researchers, photographers, videographers, 
             and copywriters, we’ll build and extend your brand in digital places.
           </span>
@@ -104,7 +105,7 @@
     </div>
 
     <div class="row m-0">
-      <div class="col-6 p-0">
+      <div class="col-lg-6 col-md-6 col-sm-12 p-0">
         <img src="assets/images/desktop/image-graphic-design.jpg" class="w-100">
         <div class="grapicdesign">
           <p class="titlebrand2">Graphic design</p>
@@ -116,7 +117,7 @@
           </div>
         </div>
       </div>
-      <div class="col-6 p-0">
+      <div class="col-lg-6 col-md-6 col-sm-12 p-0">
         <img src="assets/images/desktop/image-photography.jpg" class="w-100">
         <div class="grapicdesign">
           <p class="titlebrand3">Photography</p>
@@ -142,9 +143,9 @@
 
   <section class="section3">
     <h3 class="testititle">Client testimonials</h3>
-    <div class="container-fluid marge">
+    <div class="container-lg-fluid marge">
       <div class="row m-0 p-0">
-        <div class="col-4 card border-0">
+        <div class="col-lg-4 col-md-12 col-sm-12 card border-0">
           <div class="card-body my-5 p-0 text-center justify-content-center">
             <img class="cardimg" src="assets/images/image-emily.jpg">
             <p class="carddescription mt-5">
@@ -158,7 +159,7 @@
           </div>
         </div>
 
-        <div class="col-4 card border-0">
+        <div class="col-lg-4 col-md-12 col-sm-12 card border-0">
           <div class="card-body my-5 p-0 text-center justify-content-center">
             <img class="cardimg" src="assets/images/image-thomas.jpg">
             <p class="carddescription mt-5">
@@ -172,7 +173,7 @@
           </div>
         </div>
 
-        <div class="col-4 card border-0">
+        <div class="col-lg-4 col-md-12 col-sm-12 card border-0">
           <div class="card-body my-5 p-0 text-center justify-content-center">
             <img class="cardimg" src="assets/images/image-jennie.jpg">
             <p class="carddescription mt-5">
@@ -192,16 +193,16 @@
 
   <section class="p-0">
     <div class="row m-0">
-      <div class="col-3 px-0">
+      <div class="col-lg-3 col-md-6 col-sm-12 px-0">
         <img src="assets/images/desktop/image-gallery-milkbottles.jpg" class="imagegestion">
       </div>
-      <div class="col-3 px-0">
+      <div class="col-lg-3 col-md-6 col-sm-12 px-0">
         <img src="assets/images/desktop/image-gallery-orange.jpg" class="imagegestion">
       </div>
-      <div class="col-3 px-0">
+      <div class="col-lg-3 col-md-6 col-sm-12 px-0">
         <img src="assets/images/desktop/image-gallery-cone.jpg" class="imagegestion">
       </div>
-      <div class="col-3 px-0">
+      <div class="col-lg-3 col-md-6 col-sm-12 px-0">
         <img src="assets/images/desktop/image-gallery-sugarcubes.jpg" class="imagegestion">
       </div>
     </div>
@@ -224,11 +225,12 @@
       <img src="assets/images/icon-twitter.svg" class="imgfooter mr-5">
       <img src="assets/images/icon-pinterest.svg" class="imgfooter">
     </div>
+
+    <div class="mt-5 text-center">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://portfolio-two-lyart-69.vercel.app/index.html">Nasser Mohammed</a>.
+    </div>
   </footer>
 
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Nasser Mohammed</a>.
-  </div>
 </body>
 </html>
